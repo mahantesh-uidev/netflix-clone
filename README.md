@@ -38,7 +38,10 @@
 - GPT Search Page
 - GPT Search Bar
 - (BONUS) Multi-language feature in our App.
-- 
+- GPT Movie Suggestions Page using platform.openai's API 
+- Reusability of MovieList component for the movieSuggestions UI.
+- created gptSlice to store gptSerachResults into the Redux Store.
+- Securing API keys using env file so that the keys cannot get exposed.
 
 # Features
 - Login/Sign UP

@@ -38,10 +38,14 @@
 - GPT Search Page
 - GPT Search Bar
 - (BONUS) Multi-language feature in our App.
-- GPT Movie Suggestions Page using platform.openai's API 
+- Get Open AI API key
+- GPT Movie Suggestions Page using platform.openai's API and TMDB.
 - Reusability of MovieList component for the movieSuggestions UI.
 - created gptSlice to store gptSerachResults into the Redux Store.
-- Securing API keys using env file so that the keys cannot get exposed.
+- Memoization
+- Securing API keys using .env file so that the keys cannot get exposed.
+- Adding .env file to gitignore
+- Made the site Responsive.
 
 # Features
 - Login/Sign UP
@@ -57,3 +61,9 @@
 - NetflixGPT
     - Search Bar
     - Movie Suggestions
+
+# Responsive guidelines using Tailwind CSS
+
+bg-black: default styles for mobile screen, 
+sm:bg-blue-900 styles for for tablet screen and 
+md:bg-green-900 for laptops n desktops. 
